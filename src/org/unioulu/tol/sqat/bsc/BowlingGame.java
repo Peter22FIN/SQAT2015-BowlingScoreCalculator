@@ -33,8 +33,11 @@ public class BowlingGame {
 				}
 			}
 			else if (frame.isSpare()){
-				frame = frames.get(i+1);
-				score = score + frame.getFirstThrow();
+				j=0;
+				while (frame.isSpare() && i+j<frames.size()){
+					frame = frames.get(i+1);
+					score = score + frame.getFirstThrow();
+				}
 			}
 		}
 		return score;
