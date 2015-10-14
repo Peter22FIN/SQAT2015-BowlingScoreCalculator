@@ -144,3 +144,17 @@ UnitTestCaseAction 1444828448496 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444828448496 TestBowlingScoreCalculator FAIL
 EditAction 1444828486384 BowlingGame.java 915 5 6 0
 EditAction 1444828493948 Frame.java 1002 7 8 0
+UnitTestCaseAction 1444828496041 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828496042 TestBowlingScoreCalculator OK
+RefactoringAction 1444828582044 TestBowlingScoreCalculator.java ADD void testStrikeAndSpareReturn103()/2 METHOD
+RefactoringAction 1444828589573 TestBowlingScoreCalculator.java RENAME testStrikeAndSpareReturn103()/2=>void testReturn103() METHOD
+RefactoringAction 1444828594101 TestBowlingScoreCalculator.java RENAME testReturn103()=>void testMultipleStrikesReturn103() METHOD
+RefactoringAction 1444828598630 TestBowlingScoreCalculator.java RENAME testMultipleStrikesReturn103()=>void testReturn103() METHOD
+RefactoringAction 1444828599656 TestBowlingScoreCalculator.java RENAME testReturn103()=>void testTwoReturn103() METHOD
+RefactoringAction 1444828601685 TestBowlingScoreCalculator.java RENAME testTwoReturn103()=>void testTwoStrikesReturn103() METHOD
+RefactoringAction 1444828603714 TestBowlingScoreCalculator.java RENAME testTwoStrikesReturn103()=>void testTwoStrikesAndReturn103() METHOD
+RefactoringAction 1444828611937 TestBowlingScoreCalculator.java RENAME testTwoStrikesAndReturn103()=>void testTwoStrikesAnd7Return103() METHOD
+RefactoringAction 1444828614469 TestBowlingScoreCalculator.java RENAME testTwoStrikesAnd7Return103()=>void testTwoStrikesAnd7andReturn103() METHOD
+RefactoringAction 1444828615996 TestBowlingScoreCalculator.java RENAME testTwoStrikesAnd7andReturn103()=>void testTwoStrikesAnd7and2Return103() METHOD
+RefactoringAction 1444828674157 TestBowlingScoreCalculator.java RENAME testTwoStrikesAnd7and2Return103()=>void testTwoStrikesAnd7and2Return55() METHOD
+EditAction 1444828678394 TestBowlingScoreCalculator.java 3014 8 76 8

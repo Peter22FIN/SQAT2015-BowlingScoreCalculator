@@ -103,4 +103,16 @@ public class TestBowlingScoreCalculator {
 		bg.addFrame(frame9);
 		assertEquals(103, bg.score());
 	}
+	
+	@Test
+	public void testTwoStrikesAnd7and2Return55() {
+		BowlingGame bg = new BowlingGame();
+		Frame frame0 = new Frame(10, 0);
+		Frame frame1 = new Frame(10, 0);
+		Frame frame2 = new Frame(7, 2);
+		bg.addFrame(frame0);
+		bg.addFrame(frame1);
+		bg.addFrame(frame2);
+		assertEquals(55, bg.score());
+	}
 }
