@@ -24,6 +24,10 @@ public class BowlingGame {
 		for (int i=0; i<frames.size(); i++){
 			frame = frames.get(i);
 			score = score + frame.score();
+			if (frame.isStrike()){
+				frame = frames.get(i+1);
+				score = score + frame.score();
+			}
 		}
 		return score;
 	}
