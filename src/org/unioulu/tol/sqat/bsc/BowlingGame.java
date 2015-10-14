@@ -30,7 +30,7 @@ public class BowlingGame {
 			}
 			if (frame.isSpare()){
 				frame = frames.get(i+1);
-				score = score + frame.getFirstThrow;
+				score = score + frame.getFirstThrow();
 			}
 		}
 		return score;
