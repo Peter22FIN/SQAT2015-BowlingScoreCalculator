@@ -20,10 +20,11 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		int throw = 0;
+		Frame frame;
 		for (int i=0; i<frames.size(); i++)
 		{
-			score = score + throw;
+			frame = frames.get(i);
+			score = score + frame.score();
 		}
 		return score;
 	}

@@ -59,3 +59,8 @@ RefactoringAction 1444825283644 TestBowlingScoreCalculator.java RENAME testGame(
 RefactoringAction 1444825286661 TestBowlingScoreCalculator.java RENAME testGameo()=>void testGameOf10() METHOD
 RefactoringAction 1444825288674 TestBowlingScoreCalculator.java RENAME testGameOf10()=>void testGameOf10Frames() METHOD
 EditAction 1444826236520 BowlingGame.java 676 5 2 0
+CompilationAction 1444826236772 BowlingGame.java
+CompilationAction 1444826236772 BowlingGame.java
+CompilationAction 1444826612516 BowlingGame.java
+CompilationAction 1444826612517 BowlingGame.java
+EditAction 1444826697867 TestBowlingScoreCalculator.java 1146 2 26 2
