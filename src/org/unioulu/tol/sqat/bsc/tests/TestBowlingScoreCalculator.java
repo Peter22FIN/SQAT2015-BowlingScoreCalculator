@@ -42,4 +42,12 @@ public class TestBowlingScoreCalculator {
 		assertEquals(81, bg.score());
 	}
 	
+	@Test
+	public void testStrike() {
+		BowlingGame bg = new BowlingGame();
+		Frame frame = new Frame(10, 0);
+		bg.addFrame(frame);
+		assertEquals(1, frame.isStrike());
+	}
+	
 }
