@@ -1,0 +1,35 @@
+FileOpenedAction 1444822407009 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444823037017 TestBowlingScoreCalculator.java ADD BowlingGame bg FIELD
+FileOpenedAction 1444823075908 TestSudokuVerifier.java 1680 8 16 8
+FileOpenedAction 1444823099874 TestCell.java 290 1 2 1
+RefactoringAction 1444823170559 TestBowlingScoreCalculator.java REMOVE bg FIELD
+RefactoringAction 1444823183103 TestBowlingScoreCalculator.java ADD BowlingGame bg FIELD
+RefactoringAction 1444823236775 TestBowlingScoreCalculator.java REMOVE bg FIELD
+RefactoringAction 1444823266347 TestBowlingScoreCalculator.java RENAME test()=>void testFrame() METHOD
+RefactoringAction 1444823297861 TestBowlingScoreCalculator.java RENAME testFrame()=>void testFrame2() METHOD
+RefactoringAction 1444823299375 TestBowlingScoreCalculator.java RENAME testFrame2()=>void testFrame2and() METHOD
+RefactoringAction 1444823300389 TestBowlingScoreCalculator.java RENAME testFrame2and()=>void testFrame2and4() METHOD
+FileOpenedAction 1444823405687 TestSudokuVerifier.java 1680 8 16 8
+FileOpenedAction 1444823433694 TestSudokuVerifier.java 1680 8 16 8
+FileOpenedAction 1444823485294 TestSudokuVerifier.java 1680 8 16 8
+FileOpenedAction 1444823618227 TestSudokuVerifier.java 1680 8 16 8
+RefactoringAction 1444823773914 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444823846366 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.Frame=>import org.unioulu.tol.sqat.bsc IMPORT
+RefactoringAction 1444823853878 TestBowlingScoreCalculator.java REMOVE import org.unioulu.tol.sqat.bsc IMPORT
+RefactoringAction 1444823856383 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Bowling IMPORT
+RefactoringAction 1444823858394 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.Bowling=>import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+RefactoringAction 1444824123330 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame/2 IMPORT
+RefactoringAction 1444824127342 TestBowlingScoreCalculator.java RENAME import org.unioulu.tol.sqat.bsc.BowlingGame/2=>import org.unioulu.tol.sqat.bsc.Frame IMPORT
+RefactoringAction 1444824259488 BowlingGame.java RENAME addFrame(Frame)=>void addFrame() METHOD
+RefactoringAction 1444824265002 BowlingGame.java RENAME addFrame()=>void addFrame(Frame) METHOD
+RefactoringAction 1444824443280 TestBowlingScoreCalculator.java ADD Frame Frame(int, int) METHOD
+RefactoringAction 1444824449556 TestBowlingScoreCalculator.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1444824733659 TestBowlingScoreCalculator.java ADD Frame Frame(int, int) METHOD
+RefactoringAction 1444824761209 TestBowlingScoreCalculator.java RENAME Frame(int, int)=>Frame Frameint FIELD
+RefactoringAction 1444824796754 TestBowlingScoreCalculator.java RENAME Frameint()=>Frame Frame() METHOD
+RefactoringAction 1444824798768 TestBowlingScoreCalculator.java RENAME Frame()=>Frame Frame(int, int) METHOD
+RefactoringAction 1444824857330 TestBowlingScoreCalculator.java REMOVE Frame(int, int) METHOD
+RefactoringAction 1444824864854 TestBowlingScoreCalculator.java ADD void testFrame2and4()/2 METHOD
+FileOpenedAction 1444824872351 TestSudokuVerifier.java 1680 8 16 8
+RefactoringAction 1444824907917 TestBowlingScoreCalculator.java REMOVE testFrame2and4()/2 METHOD
+EditAction 1444824953243 TestBowlingScoreCalculator.java 384 1 3 0
