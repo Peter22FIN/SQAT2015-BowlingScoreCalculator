@@ -51,3 +51,11 @@ UnitTestSessionAction 1444825154758 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444825202527 TestBowlingScoreCalculator.java RENAME testFrameScore2and6Return9()=>void testFrameScore2and6Return8() METHOD
 EditAction 1444825242462 Frame.java 792 6 7 0
 EditAction 1444825242544 TestBowlingScoreCalculator.java 432 1 4 1
+UnitTestCaseAction 1444825242866 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444825242867 TestBowlingScoreCalculator.testFrameScore2and6Return8 OK
+RefactoringAction 1444825265613 TestBowlingScoreCalculator.java ADD void testFrameScore2and6Return8()/2 METHOD
+RefactoringAction 1444825280130 TestBowlingScoreCalculator.java RENAME testFrameScore2and6Return8()/2=>void testGame() METHOD
+RefactoringAction 1444825283644 TestBowlingScoreCalculator.java RENAME testGame()=>void testGameo() METHOD
+RefactoringAction 1444825286661 TestBowlingScoreCalculator.java RENAME testGameo()=>void testGameOf10() METHOD
+RefactoringAction 1444825288674 TestBowlingScoreCalculator.java RENAME testGameOf10()=>void testGameOf10Frames() METHOD
+EditAction 1444826236520 BowlingGame.java 676 5 2 0
