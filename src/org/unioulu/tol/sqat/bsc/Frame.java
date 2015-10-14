@@ -45,4 +45,9 @@ public class Frame {
 		//to be implemented
 		return 0;
 	}
+	
+	//bonus throws
+	public int getFirstThrow(){
+		return firstThrow;
+	}
 }

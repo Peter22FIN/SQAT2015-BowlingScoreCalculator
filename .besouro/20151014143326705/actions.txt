@@ -97,3 +97,10 @@ EditAction 1444827555644 TestBowlingScoreCalculator.java 1736 5 40 5
 UnitTestCaseAction 1444827558890 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444827558890 TestBowlingScoreCalculator FAIL
 EditAction 1444827641027 Frame.java 926 6 7 0
+UnitTestCaseAction 1444827649300 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827649300 TestBowlingScoreCalculator OK
+RefactoringAction 1444827889192 Frame.java ADD int bonus()/2 METHOD
+RefactoringAction 1444827903749 Frame.java RENAME bonus()/2=>int get() METHOD
+RefactoringAction 1444827906763 Frame.java RENAME get()=>int getFirst() METHOD
+RefactoringAction 1444827908275 Frame.java RENAME getFirst()=>int getFirstThrow() METHOD
+EditAction 1444827923242 Frame.java 1002 7 8 0
