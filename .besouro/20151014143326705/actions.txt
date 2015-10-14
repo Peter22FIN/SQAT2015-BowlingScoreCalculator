@@ -122,3 +122,14 @@ UnitTestSessionAction 1444828088569 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444828095456 BowlingGame.java REMOVE isNextFrameBonus() METHOD
 RefactoringAction 1444828097473 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1444828099352 BowlingGame.java 910 5 6 0
+UnitTestCaseAction 1444828102094 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444828102095 TestBowlingScoreCalculator OK
+RefactoringAction 1444828158398 TestBowlingScoreCalculator.java ADD void testGameOf10FramesReturn81()/2 METHOD
+RefactoringAction 1444828165928 TestBowlingScoreCalculator.java RENAME testGameOf10FramesReturn81()/2=>void testGameOf10FramesReturn() METHOD
+RefactoringAction 1444828167956 TestBowlingScoreCalculator.java RENAME testGameOf10FramesReturn()=>void testGameOf10FramesReturn103() METHOD
+RefactoringAction 1444828172985 TestBowlingScoreCalculator.java RENAME testGameOf10FramesReturn103()=>void testReturn103() METHOD
+RefactoringAction 1444828175011 TestBowlingScoreCalculator.java RENAME testReturn103()=>void testStrikeReturn103() METHOD
+RefactoringAction 1444828176038 TestBowlingScoreCalculator.java RENAME testStrikeReturn103()=>void testStrikeandReturn103() METHOD
+RefactoringAction 1444828179062 TestBowlingScoreCalculator.java RENAME testStrikeandReturn103()=>void testStrikeandSpareReturn103() METHOD
+RefactoringAction 1444828181088 TestBowlingScoreCalculator.java RENAME testStrikeandSpareReturn103()=>void testStrikeAndSpareReturn103() METHOD
+EditAction 1444828214367 TestBowlingScoreCalculator.java 2699 7 68 7
