@@ -173,3 +173,7 @@ RefactoringAction 1444829014235 TestBowlingScoreCalculator.java RENAME testMulti
 RefactoringAction 1444829019749 TestBowlingScoreCalculator.java RENAME testMultipleSparesReturn()=>void testMultipleSparesReturn98() METHOD
 EditAction 1444829142065 TestBowlingScoreCalculator.java 3736 9 98 9
 EditAction 1444829276909 BowlingGame.java 1068 5 7 0
+RefactoringAction 1444829338955 TestBowlingScoreCalculator.java ADD void testSpare()/2 METHOD
+RefactoringAction 1444829345469 TestBowlingScoreCalculator.java RENAME testSpare()/2=>void testLast() METHOD
+RefactoringAction 1444829348006 TestBowlingScoreCalculator.java RENAME testLast()=>void testLastFrame() METHOD
+EditAction 1444829449883 TestBowlingScoreCalculator.java 4449 10 120 10
