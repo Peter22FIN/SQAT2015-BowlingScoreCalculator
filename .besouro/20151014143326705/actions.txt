@@ -64,3 +64,8 @@ CompilationAction 1444826236772 BowlingGame.java
 CompilationAction 1444826612516 BowlingGame.java
 CompilationAction 1444826612517 BowlingGame.java
 EditAction 1444826697867 TestBowlingScoreCalculator.java 1146 2 26 2
+UnitTestCaseAction 1444826699561 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826699561 TestBowlingScoreCalculator OK
+RefactoringAction 1444826743853 TestBowlingScoreCalculator.java RENAME testGameOf10Frames()=>void testGameOf10FramesReturn() METHOD
+RefactoringAction 1444826746869 TestBowlingScoreCalculator.java RENAME testGameOf10FramesReturn()=>void testGameOf10FramesReturn81() METHOD
+EditAction 1444826747602 TestBowlingScoreCalculator.java 1154 2 26 2
