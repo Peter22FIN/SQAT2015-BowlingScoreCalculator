@@ -50,4 +50,13 @@ public class TestBowlingScoreCalculator {
 		assertTrue(frame.isStrike());
 	}
 	
+	@Test
+	public void testStrikeScore() {
+		BowlingGame bg = new BowlingGame();
+		Frame frame0 = new Frame(10, 0);
+		bg.addFrame(frame0);
+		Frame frame1 = new Frame(3, 6);
+		bg.addFrame(frame1);
+		assertEquals(28, bg.score());
+	}
 }
