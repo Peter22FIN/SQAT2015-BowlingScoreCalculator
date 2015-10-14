@@ -110,3 +110,7 @@ EditAction 1444827956816 BowlingGame.java 910 5 6 0
 RefactoringAction 1444827983385 BowlingGame.java REMOVE isNextFrameBonus() METHOD
 RefactoringAction 1444827985903 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
 EditAction 1444827990688 BowlingGame.java 914 5 6 0
+RefactoringAction 1444828000998 TestBowlingScoreCalculator.java ADD void testStrikeScore()/2 METHOD
+RefactoringAction 1444828006020 TestBowlingScoreCalculator.java RENAME testStrikeScore()/2=>void testeScore() METHOD
+RefactoringAction 1444828008544 TestBowlingScoreCalculator.java RENAME testeScore()=>void testSpareScore() METHOD
+EditAction 1444828044154 TestBowlingScoreCalculator.java 1974 6 46 6
