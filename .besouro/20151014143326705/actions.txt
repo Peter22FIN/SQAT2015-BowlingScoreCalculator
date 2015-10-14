@@ -41,3 +41,4 @@ RefactoringAction 1444825058677 TestBowlingScoreCalculator.java RENAME test2and6
 RefactoringAction 1444825064692 TestBowlingScoreCalculator.java RENAME testFrameScore2and6()=>void testFrameScore2and6Return() METHOD
 RefactoringAction 1444825067205 TestBowlingScoreCalculator.java RENAME testFrameScore2and6Return()=>void testFrameScore2and6Return9() METHOD
 EditAction 1444825068967 TestBowlingScoreCalculator.java 572 2 7 1
+EditAction 1444825102150 TestBowlingScoreCalculator.java 575 2 7 1

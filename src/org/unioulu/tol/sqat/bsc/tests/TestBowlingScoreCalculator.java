@@ -20,7 +20,7 @@ public class TestBowlingScoreCalculator {
 		BowlingGame bg = new BowlingGame();
 		Frame frame = new Frame(2, 6);
 		bg.addFrame(frame);
-		assertEquals(9, bg.score());
+		assertEquals(9, frame.score());
 	}
 	
 }
