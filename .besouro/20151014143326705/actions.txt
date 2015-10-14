@@ -33,3 +33,11 @@ RefactoringAction 1444824864854 TestBowlingScoreCalculator.java ADD void testFra
 FileOpenedAction 1444824872351 TestSudokuVerifier.java 1680 8 16 8
 RefactoringAction 1444824907917 TestBowlingScoreCalculator.java REMOVE testFrame2and4()/2 METHOD
 EditAction 1444824953243 TestBowlingScoreCalculator.java 384 1 3 0
+RefactoringAction 1444824958476 TestBowlingScoreCalculator.java ADD void testFrame2and4()/2 METHOD
+FileOpenedAction 1444824999320 TestSudokuVerifier.java 1680 8 16 8
+RefactoringAction 1444825051149 TestBowlingScoreCalculator.java RENAME testFrame2and4()/2=>void testFrame2and6() METHOD
+RefactoringAction 1444825053663 TestBowlingScoreCalculator.java RENAME testFrame2and6()=>void test2and6() METHOD
+RefactoringAction 1444825058677 TestBowlingScoreCalculator.java RENAME test2and6()=>void testFrameScore2and6() METHOD
+RefactoringAction 1444825064692 TestBowlingScoreCalculator.java RENAME testFrameScore2and6()=>void testFrameScore2and6Return() METHOD
+RefactoringAction 1444825067205 TestBowlingScoreCalculator.java RENAME testFrameScore2and6Return()=>void testFrameScore2and6Return9() METHOD
+EditAction 1444825068967 TestBowlingScoreCalculator.java 572 2 7 1

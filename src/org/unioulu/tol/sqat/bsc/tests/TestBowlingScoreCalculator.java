@@ -15,4 +15,12 @@ public class TestBowlingScoreCalculator {
 		bg.addFrame(frame);
 	}
 	
+	@Test
+	public void testFrameScore2and6Return9() {
+		BowlingGame bg = new BowlingGame();
+		Frame frame = new Frame(2, 6);
+		bg.addFrame(frame);
+		assertEquals(9, bg.score());
+	}
+	
 }
