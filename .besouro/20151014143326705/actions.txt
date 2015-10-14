@@ -107,3 +107,6 @@ EditAction 1444827923242 Frame.java 1002 7 8 0
 EditAction 1444827932137 BowlingGame.java 908 5 6 0
 CompilationAction 1444827932426 BowlingGame.java
 EditAction 1444827956816 BowlingGame.java 910 5 6 0
+RefactoringAction 1444827983385 BowlingGame.java REMOVE isNextFrameBonus() METHOD
+RefactoringAction 1444827985903 BowlingGame.java ADD boolean isNextFrameBonus() METHOD
+EditAction 1444827990688 BowlingGame.java 914 5 6 0
