@@ -104,3 +104,4 @@ RefactoringAction 1444827903749 Frame.java RENAME bonus()/2=>int get() METHOD
 RefactoringAction 1444827906763 Frame.java RENAME get()=>int getFirst() METHOD
 RefactoringAction 1444827908275 Frame.java RENAME getFirst()=>int getFirstThrow() METHOD
 EditAction 1444827923242 Frame.java 1002 7 8 0
+EditAction 1444827932137 BowlingGame.java 908 5 6 0
