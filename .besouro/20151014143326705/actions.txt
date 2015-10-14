@@ -88,3 +88,9 @@ EditAction 1444827311214 TestBowlingScoreCalculator.java 1565 4 36 4
 UnitTestCaseAction 1444827314039 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444827314040 TestBowlingScoreCalculator FAIL
 EditAction 1444827460277 BowlingGame.java 804 5 6 0
+UnitTestCaseAction 1444827462990 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827462990 TestBowlingScoreCalculator OK
+RefactoringAction 1444827484516 TestBowlingScoreCalculator.java ADD void testStrikeScore()/2 METHOD
+RefactoringAction 1444827497038 TestBowlingScoreCalculator.java RENAME testStrikeScore()/2=>void testStrike()/2 METHOD
+RefactoringAction 1444827504061 TestBowlingScoreCalculator.java RENAME testStrike()/2=>void testSpare() METHOD
+EditAction 1444827555644 TestBowlingScoreCalculator.java 1736 5 40 5

@@ -59,4 +59,12 @@ public class TestBowlingScoreCalculator {
 		bg.addFrame(frame1);
 		assertEquals(28, bg.score());
 	}
+	
+	@Test
+	public void testSpare() {
+		BowlingGame bg = new BowlingGame();
+		Frame frame = new Frame(9, 1);
+		bg.addFrame(frame);
+		assertTrue(frame.isSpare());
+	}
 }
