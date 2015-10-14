@@ -105,7 +105,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testTwoStrikesAnd7and2Return112() {
+	public void testMultipleStrikesReturn112() {
 		BowlingGame bg = new BowlingGame();
 		Frame frame0 = new Frame(10, 0);
 		Frame frame1 = new Frame(10, 0);
