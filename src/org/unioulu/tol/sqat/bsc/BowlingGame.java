@@ -20,13 +20,17 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
+		int j=0;
 		Frame frame;
 		for (int i=0; i<frames.size(); i++){
 			frame = frames.get(i);
 			score = score + frame.score();
 			if (frame.isStrike()){
-				frame = frames.get(i+1);
-				score = score + frame.score();
+				j=0;
+				while (frame.isStrike() && i+j<frames.size()){
+					frame = frames.get(i+1);
+					score = score + frame.score();
+				}
 			}
 			else if (frame.isSpare()){
 				frame = frames.get(i+1);
