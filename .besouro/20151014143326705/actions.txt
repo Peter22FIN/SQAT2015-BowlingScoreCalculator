@@ -177,3 +177,5 @@ RefactoringAction 1444829338955 TestBowlingScoreCalculator.java ADD void testSpa
 RefactoringAction 1444829345469 TestBowlingScoreCalculator.java RENAME testSpare()/2=>void testLast() METHOD
 RefactoringAction 1444829348006 TestBowlingScoreCalculator.java RENAME testLast()=>void testLastFrame() METHOD
 EditAction 1444829449883 TestBowlingScoreCalculator.java 4449 10 120 10
+RefactoringAction 1444829620811 TestBowlingScoreCalculator.java RENAME testTwoStrikesAnd7and2Return55()=>void testTwoStrikesAnd7and2Return112() METHOD
+EditAction 1444829630886 TestBowlingScoreCalculator.java 4864 10 134 10
