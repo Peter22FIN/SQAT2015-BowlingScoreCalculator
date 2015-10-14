@@ -9,11 +9,11 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 	
 	@Test
-	public void testFrameScore2and6Return9() {
+	public void testFrameScore2and6Return8() {
 		BowlingGame bg = new BowlingGame();
 		Frame frame = new Frame(2, 6);
 		bg.addFrame(frame);
-		assertEquals(9, frame.score());
+		assertEquals(8, frame.score());
 	}
 	
 }
